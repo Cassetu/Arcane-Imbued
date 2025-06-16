@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "arcane-imbued",
+	"version": "${version}",
+	"name": "Arcane Imbued",
+	"description": "Arcane Weapons and Spells",
+	"authors": [
+		"Cassetu"
+	],
+	"contact": {
+		"homepage": "https://www.youtube.com/@Cassetu",
+		"sources": ""
+	},
+	"license": "LGPL-2.1",
+	"icon": "assets/arcane-imbued/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cassetu.arcaneimbued.ArcaneImbued"
+		],
+		"fabric-datagen": [
+			"cassetu.arcaneimbued.ArcaneImbuedDataGenerator"
+		],
+		"client": [
+			"cassetu.arcaneimbued.ArcaneImbuedClient"
+		]
+	},
+	"mixins": [
+		"arcane-imbued.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
