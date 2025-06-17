@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_batrachite_deepslate_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arcane-imbued:batrachite_deepslate_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:batrachite_from_blasting_batrachite_deepslate_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_batrachite_deepslate_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:batrachite_from_blasting_batrachite_deepslate_ore"
+    ]
+  }
+}

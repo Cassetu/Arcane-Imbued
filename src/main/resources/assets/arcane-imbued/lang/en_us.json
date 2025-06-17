@@ -1,0 +1,29 @@
+{
+  "item.arcane-imbued.batrachite": "Batrachite",
+  "item.arcane-imbued.raw_batrachite": "Raw Batrachite",
+  "item.arcane-imbued.batrachite_wand": "Batrachite Wand",
+  "item.arcane-imbued.brick_wand": "Brick Wand",
+  "item.arcane-imbued.arcane_wand": "Arcane Wand",
+  "item.arcane-imbued.cauliflower": "Cauliflower",
+  "item.arcane-imbued.starlight_ashes": "Starlight Ashes",
+
+  "item.arcane-imbued.obsidian_batrachite_sword": "Obsidian Batrachite Sword",
+
+  "block.arcane-imbued.batrachite_ore": "Batrachite Ore",
+  "block.arcane-imbued.batrachite_deepslate_ore": "Batrachite Deepslate Ore",
+
+  "block.arcane-imbued.magic_block": "Magic Block",
+
+  "itemgroup.arcane-imbued.arcane_imbued_items": "Arcane Imbued Items",
+  "itemgroup.arcane-imbued.arcane_imbued_blocks": "Arcane Imbued Blocks",
+
+  "tooltip.arcane-imbued.magic_block.tooltip": "This block is very, very §9MAGICAL§r",
+
+  "tooltip.arcane-imbued.arcane_wand.tooltip": "Can be used to transform many blocks into different and new blocks",
+  "tooltip.arcane-imbued.brick_wand.tooltip": "Can be used to transform stone, endstone and deepslate into their corresponding brick variants",
+  "tooltip.arcane-imbued.batrachite_wand.tooltip": "Can be used to transform deepslate and stone diamond ore into batrachite ores",
+
+  "tooltip.arcane-imbued.press_shift": "Press §eShift§r for more Information!",
+
+  "tooltip.arcane-imbued.cauliflower.tooltip": "This is delicious!"
+}

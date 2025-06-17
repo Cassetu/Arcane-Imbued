@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 0.25,
+  "group": "batrachite",
+  "ingredient": {
+    "item": "arcane-imbued:batrachite_ore"
+  },
+  "result": {
+    "id": "arcane-imbued:batrachite"
+  }
+}

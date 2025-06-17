@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 800,
+  "experience": 0.25,
+  "group": "batrachite",
+  "ingredient": {
+    "item": "arcane-imbued:raw_batrachite"
+  },
+  "result": {
+    "id": "arcane-imbued:batrachite"
+  }
+}
