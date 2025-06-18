@@ -1,9 +1,12 @@
 {
   "item.arcane-imbued.batrachite": "Batrachite",
   "item.arcane-imbued.raw_batrachite": "Raw Batrachite",
+
   "item.arcane-imbued.batrachite_wand": "Batrachite Wand",
   "item.arcane-imbued.brick_wand": "Brick Wand",
   "item.arcane-imbued.arcane_wand": "Arcane Wand",
+  "item.arcane-imbued.cardinal_wand": "Cardinal Wand",
+
   "item.arcane-imbued.cauliflower": "Cauliflower",
   "item.arcane-imbued.starlight_ashes": "Starlight Ashes",
 
@@ -11,17 +14,29 @@
 
   "block.arcane-imbued.batrachite_ore": "Batrachite Ore",
   "block.arcane-imbued.batrachite_deepslate_ore": "Batrachite Deepslate Ore",
+  "block.arcane-imbued.cardinal_spike_cluster": "Cardinal Spike Cluster",
 
   "block.arcane-imbued.magic_block": "Magic Block",
 
   "itemgroup.arcane-imbued.arcane_imbued_items": "Arcane Imbued Items",
   "itemgroup.arcane-imbued.arcane_imbued_blocks": "Arcane Imbued Blocks",
 
-  "tooltip.arcane-imbued.magic_block.tooltip": "This block is very, very §9MAGICAL§r",
+  "item.arcane-imbued.cardinal_spike": "Cardinal Spike",
+  "item.arcane-imbued.celestial_bloom": "Celestial Bloom",
+  "item.arcane-imbued.cerulean_drop": "Cerulean Drop",
 
-  "tooltip.arcane-imbued.arcane_wand.tooltip": "Can be used to transform many blocks into different and new blocks",
-  "tooltip.arcane-imbued.brick_wand.tooltip": "Can be used to transform stone, endstone and deepslate into their corresponding brick variants",
-  "tooltip.arcane-imbued.batrachite_wand.tooltip": "Can be used to transform deepslate and stone diamond ore into batrachite ores",
+  "item.arcane-imbued.obsidian_blade": "Obsidian Blade",
+
+  "tooltip.arcane-imbued.magic_block.tooltip": "Drop specific items on this to transform them",
+
+  "tooltip.arcane-imbued.arcane_wand.tooltip": "Gold Blocks -> Netherite Blocks",
+
+  "tooltip.arcane-imbued.cardinal_wand.tooltip": "Amethyst Cluster -> Cardinal Shard Clusters",
+
+  "tooltip.arcane-imbued.brick_wand.tooltip": "Stone, Endstone & Deepslate ->",
+  "tooltip.arcane-imbued.brick_wand.tooltip2": "Stone Bricks, Endstone Bricks & Deepslate Bricks",
+
+  "tooltip.arcane-imbued.batrachite_wand.tooltip": "Diamond Ore -> Batrachite Ore",
 
   "tooltip.arcane-imbued.press_shift": "Press §eShift§r for more Information!",
 

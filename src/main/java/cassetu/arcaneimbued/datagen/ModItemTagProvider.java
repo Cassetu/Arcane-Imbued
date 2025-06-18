@@ -20,14 +20,17 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.Items.TRANSFORMABLE_ITEMS)
                 .add(ModItems.BATRACHITE)
                 .add(ModItems.RAW_BATRACHITE)
-                .add(Items.COAL)
-                .add(Items.STICK)
-                .add(Items.APPLE);
-
+                .add(ModItems.CELESTIAL_BLOOM)
+                .add(ModItems.CARDINAL_SPIKE)
+                .add(ModItems.CERULEAN_DROP);
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.OBSIDIAN_BATRACHITE_SWORD);
         getOrCreateTagBuilder(ItemTags.DURABILITY_ENCHANTABLE)
+                .add(ModItems.ARCANE_WAND)
+                .add(ModItems.BRICK_WAND)
+                .add(ModItems.BATRACHITE_WAND)
+                .add(ModItems.CARDINAL_WAND)
                 .add(ModItems.OBSIDIAN_BATRACHITE_SWORD);
         getOrCreateTagBuilder(ItemTags.SWORD_ENCHANTABLE)
                 .add(ModItems.OBSIDIAN_BATRACHITE_SWORD);

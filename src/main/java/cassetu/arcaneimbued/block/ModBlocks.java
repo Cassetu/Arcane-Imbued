@@ -3,9 +3,7 @@ package cassetu.arcaneimbued.block;
 import cassetu.arcaneimbued.ArcaneImbued;
 import cassetu.arcaneimbued.block.custom.MagicBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -27,6 +25,14 @@ public class ModBlocks {
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
+   public static final Block CARDINAL_SPIKE_CLUSTER = registerBlock("cardinal_spike_cluster",
+           new AmethystClusterBlock(7, 3, AbstractBlock.Settings.create()
+                   .mapColor(MapColor.PURPLE)
+                   .solid()
+                   .nonOpaque()
+                   .sounds(BlockSoundGroup.AMETHYST_CLUSTER)
+                   .strength(1.5F)
+                   .luminance(state -> 4)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

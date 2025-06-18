@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_batrachite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arcane-imbued:batrachite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_obsidian_blade": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arcane-imbued:obsidian_blade"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arcane-imbued:obsidian_batrachite_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_batrachite",
+      "has_obsidian_blade",
+      "has_stick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arcane-imbued:obsidian_batrachite_sword"
+    ]
+  }
+}

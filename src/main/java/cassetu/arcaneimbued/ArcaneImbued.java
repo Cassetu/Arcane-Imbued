@@ -3,6 +3,7 @@ package cassetu.arcaneimbued;
 import cassetu.arcaneimbued.block.ModBlocks;
 import cassetu.arcaneimbued.item.ModItemGroups;
 import cassetu.arcaneimbued.item.ModItems;
+import cassetu.arcaneimbued.item.ModToolMaterials;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;

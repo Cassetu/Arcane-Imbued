@@ -1,5 +1,9 @@
 {
   "values": [
+    "arcane-imbued:arcane_wand",
+    "arcane-imbued:brick_wand",
+    "arcane-imbued:batrachite_wand",
+    "arcane-imbued:cardinal_wand",
     "arcane-imbued:obsidian_batrachite_sword"
   ]
 }

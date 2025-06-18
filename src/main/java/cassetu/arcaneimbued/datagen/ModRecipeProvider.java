@@ -32,16 +32,25 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 //        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PINK_GARNET, RecipeCategory.DECORATIONS, ModBlocks.PINK_GARNET_BLOCK);
 
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.OBSIDIAN_BATRACHITE_SWORD)
-                .pattern(" S ")
+                .pattern(" O ")
                 .pattern(" B ")
                 .pattern(" S ")
                 .input('B', ModItems.BATRACHITE)
-                .input('O', Items.OBSIDIAN)
+                .input('O', ModItems.OBSIDIAN_BLADE)
                 .input('S', Items.STICK)
-                .criterion(hasItem(ModItems.BATRACHITE_WAND), conditionsFromItem(ModItems.BATRACHITE))
-//                .criterion(hasItem(Items.OBSIDIAN), conditionsFromItem(Items.OBSIDIAN))
-//                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.BATRACHITE), conditionsFromItem(ModItems.BATRACHITE))
+                .criterion(hasItem(ModItems.OBSIDIAN_BLADE), conditionsFromItem(ModItems.OBSIDIAN_BLADE))
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.OBSIDIAN_BLADE)
+                .pattern(" O ")
+                .pattern(" O ")
+                .pattern(" O ")
+                .input('O', Items.OBSIDIAN)
+                .criterion(hasItem(Items.OBSIDIAN), conditionsFromItem(Items.OBSIDIAN))
                 .offerTo(exporter);
 
 //        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET, 9)

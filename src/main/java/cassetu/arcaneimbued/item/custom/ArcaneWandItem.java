@@ -23,8 +23,7 @@ import java.util.Map;
 public class ArcaneWandItem extends Item {
     private static final Map<Block, Block> ARCANE_WAND_MAP =
             Map.of(
-                    Blocks.DIAMOND_BLOCK, Blocks.NETHERITE_BLOCK,
-                    Blocks.DRAGON_HEAD, Blocks.DRAGON_EGG
+                    Blocks.DIAMOND_BLOCK, Blocks.NETHERITE_BLOCK
             );
 
     public ArcaneWandItem(Settings settings) {
@@ -43,7 +42,7 @@ public class ArcaneWandItem extends Item {
                 context.getStack().damage(1, ((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),
                         item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
-                world.playSound(null, context.getBlockPos(), SoundEvents.BLOCK_ENCHANTMENT_TABLE_USE, SoundCategory.BLOCKS);
+                world.playSound(null, context.getBlockPos(), SoundEvents.BLOCK_GRINDSTONE_USE, SoundCategory.BLOCKS);
             }
         }
 

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "arcane-imbued:block/cardinal_spike_cluster"
+  }
+}

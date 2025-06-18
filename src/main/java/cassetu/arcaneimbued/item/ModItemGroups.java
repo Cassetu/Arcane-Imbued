@@ -22,12 +22,20 @@ public class ModItemGroups {
                         entries.add(ModItems.BRICK_WAND);
                         entries.add(ModItems.ARCANE_WAND);
                         entries.add(ModItems.BATRACHITE_WAND);
+                        entries.add(ModItems.CARDINAL_WAND);
 
                         entries.add(ModItems.OBSIDIAN_BATRACHITE_SWORD);
 
                         entries.add(ModItems.CAULIFLOWER);
 
                         entries.add(ModItems.STARLIGHT_ASHES);
+
+
+                        entries.add(ModItems.CELESTIAL_BLOOM);
+                        entries.add(ModItems.CARDINAL_SPIKE);
+                        entries.add(ModItems.OBSIDIAN_BLADE);
+                        entries.add(ModItems.CERULEAN_DROP);
+
                     }).build());
 
     public static final ItemGroup ARCANE_IMBUED_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -40,6 +48,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BATRACHITE_DEEPSLATE_ORE);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
+                        entries.add(ModBlocks.CARDINAL_SPIKE_CLUSTER);
 
                     }).build());
 

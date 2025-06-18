@@ -18,6 +18,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BATRACHITE_DEEPSLATE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BATRACHITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGIC_BLOCK);
+
+        blockStateModelGenerator.registerAmethyst(ModBlocks.CARDINAL_SPIKE_CLUSTER);
     }
 
     @Override
@@ -26,10 +28,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_BATRACHITE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.CAULIFLOWER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OBSIDIAN_BLADE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CARDINAL_SPIKE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CELESTIAL_BLOOM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CERULEAN_DROP, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.BATRACHITE_WAND, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ARCANE_WAND, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BRICK_WAND, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CARDINAL_WAND, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.STARLIGHT_ASHES, Models.GENERATED);
 

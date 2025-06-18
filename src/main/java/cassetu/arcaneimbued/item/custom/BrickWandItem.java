@@ -55,6 +55,7 @@ public class BrickWandItem extends Item {
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         if(Screen.hasShiftDown()) {
             tooltip.add(Text.translatable("tooltip.arcane-imbued.brick_wand.tooltip"));
+            tooltip.add(Text.translatable("tooltip.arcane-imbued.brick_wand.tooltip2"));
         } else {
             tooltip.add(Text.translatable("tooltip.arcane-imbued.press_shift"));
         }

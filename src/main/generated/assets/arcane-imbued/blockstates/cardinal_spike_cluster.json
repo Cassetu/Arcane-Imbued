@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "arcane-imbued:block/cardinal_spike_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "arcane-imbued:block/cardinal_spike_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "arcane-imbued:block/cardinal_spike_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "arcane-imbued:block/cardinal_spike_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "arcane-imbued:block/cardinal_spike_cluster"
+    },
+    "facing=west": {
+      "model": "arcane-imbued:block/cardinal_spike_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

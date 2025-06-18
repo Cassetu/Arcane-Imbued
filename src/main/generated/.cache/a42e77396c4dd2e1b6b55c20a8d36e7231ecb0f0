@@ -1,2 +1,5 @@
-// 1.21.1	2025-06-16T17:17:15.7227446	Arcane Imbued/Tags for minecraft:item
-fa90a8a2f159cf4373647a9a8f926e5a455f0ba1 data\arcane-imbued\tags\item\transformable_items.json
+// 1.21.1	2025-06-17T19:37:35.7417256	Arcane Imbued/Tags for minecraft:item
+5ed31ebbe807846987c2e0a37b8e97fc24f3a0dd data\minecraft\tags\item\swords.json
+396462b26440fdbf9b712939565e88e007e27e4c data\arcane-imbued\tags\item\transformable_items.json
+9be5c095cd970804a87166c82b9bcbcf41847773 data\minecraft\tags\item\enchantable\durability.json
+5ed31ebbe807846987c2e0a37b8e97fc24f3a0dd data\minecraft\tags\item\enchantable\sword.json

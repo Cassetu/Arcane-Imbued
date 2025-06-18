@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "arcane-imbued:batrachite"
+    },
+    "O": {
+      "item": "arcane-imbued:obsidian_blade"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " O ",
+    " B ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "arcane-imbued:obsidian_batrachite_sword"
+  }
+}
