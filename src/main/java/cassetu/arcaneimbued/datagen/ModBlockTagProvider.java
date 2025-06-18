@@ -28,5 +28,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_BATRACHITE_TOOL)
                 .addTag(BlockTags.NEEDS_IRON_TOOL);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_CARDINAL_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
     }
 }

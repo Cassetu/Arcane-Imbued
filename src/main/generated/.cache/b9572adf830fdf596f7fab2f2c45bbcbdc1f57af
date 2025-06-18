@@ -1,8 +1,13 @@
-// 1.21.1	2025-06-17T19:37:35.7367246	Arcane Imbued/Recipes
+// 1.21.1	2025-06-17T21:27:41.8069399	Arcane Imbued/Recipes
+1a198361e69226d2ebb040b674dc1133c46273f1 data\arcane-imbued\recipe\amethyst_blade.json
+30261f9155d622da36079ec5daaac8f19b733647 data\arcane-imbued\recipe\forest_prism_blade.json
 28998d978126b1150f9f434e6d6c097b3096a920 data\arcane-imbued\advancement\recipes\misc\batrachite_from_smelting_raw_batrachite.json
 390bfd364753ab3c0cd208f2e0fd93289dc7e9ee data\arcane-imbued\recipe\batrachite_from_blasting_batrachite_deepslate_ore.json
 0a8add9838fa00f907bff23267a28a9197c34a5c data\arcane-imbued\advancement\recipes\misc\batrachite_from_blasting_raw_batrachite.json
+4ebcb76ed846ac261efc8c958e1dc6c569e7424c data\arcane-imbued\advancement\recipes\tools\cardinal_amethyst_sword.json
 4b567c83f9a8e64f2f0ca8c418fcb55ce2d01183 data\arcane-imbued\advancement\recipes\misc\batrachite_from_smelting_batrachite_ore.json
+7beef9243ee02a21676fc71bb6f6ca2e887e01ef data\arcane-imbued\recipe\cardinal_amethyst_sword.json
+29e330b13b3807932662d312f90a39b0b0daadb7 data\arcane-imbued\advancement\recipes\combat\amethyst_blade.json
 2c614e87e63d6430cfdff8858032b7a580d5469b data\arcane-imbued\recipe\batrachite_from_smelting_raw_batrachite.json
 d5ef3d8d001932d5447132f9745ae21563fd605d data\arcane-imbued\advancement\recipes\misc\batrachite_from_smelting_batrachite_deepslate_ore.json
 18a1c4cef3627933c1782e28d495a4873498d36c data\arcane-imbued\advancement\recipes\misc\batrachite_from_blasting_batrachite_ore.json
@@ -15,3 +20,4 @@ a93b9ad5436ca3e17cf2d2bf6509ea247cc98ee5 data\arcane-imbued\advancement\recipes\
 95720868c6ff6fea0aef13aa0a4fda8371134f23 data\arcane-imbued\recipe\obsidian_batrachite_sword.json
 1b8bbea340cbbedda27c8fc4d8b8f6f5d7c772e7 data\arcane-imbued\recipe\batrachite_from_blasting_raw_batrachite.json
 27fdd3bb854c5f61b732fc0ab05c441c3acb2468 data\arcane-imbued\recipe\obsidian_blade.json
+b5d1fa3b1c22b342f7cc284b206c828d46f6c139 data\arcane-imbued\advancement\recipes\combat\forest_prism_blade.json

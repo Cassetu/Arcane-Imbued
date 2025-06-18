@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "arcane-imbued:amethyst_blade"
+    },
+    "C": {
+      "item": "arcane-imbued:cardinal_spike"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " A ",
+    " C ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "arcane-imbued:cardinal_amethyst_sword"
+  }
+}

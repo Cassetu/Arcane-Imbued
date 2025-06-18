@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:amethyst_block"
+    },
+    "S": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    " S ",
+    " B ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "arcane-imbued:amethyst_blade"
+  }
+}

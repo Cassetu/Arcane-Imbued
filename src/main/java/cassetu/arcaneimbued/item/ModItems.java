@@ -26,11 +26,14 @@ public class ModItems {
     public static final Item ARCANE_WAND = registerItem("arcane_wand", new ArcaneWandItem(new Item.Settings().maxDamage(56)));
     public static final Item BATRACHITE_WAND = registerItem("batrachite_wand", new BatrachiteWandItem(new Item.Settings().maxDamage(32)));
     public static final Item CARDINAL_WAND = registerItem("cardinal_wand", new CardinalWandItem(new Item.Settings().maxDamage(32)));
+    public static final Item FOREST_PRISM_BLADE = registerItem("forest_prism_blade", new Item(new Item.Settings()));
 
     public static final Item OBSIDIAN_BLADE = registerItem("obsidian_blade", new Item(new Item.Settings()));
     public static final Item CARDINAL_SPIKE = registerItem("cardinal_spike", new Item(new Item.Settings()));
     public static final Item CELESTIAL_BLOOM = registerItem("celestial_bloom", new Item(new Item.Settings()));
     public static final Item CERULEAN_DROP = registerItem("cerulean_drop", new Item(new Item.Settings()));
+    public static final Item AMETHYST_BLADE = registerItem("amethyst_blade", new Item(new Item.Settings()));
+    public static final Item FOREST_PRISM = registerItem("forest_prism", new Item(new Item.Settings()));
 
     public static final Item CAULIFLOWER = registerItem("cauliflower", new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)) {
         @Override
@@ -45,6 +48,10 @@ public class ModItems {
     public static final Item OBSIDIAN_BATRACHITE_SWORD = registerItem("obsidian_batrachite_sword",
             new SwordItem(ModToolMaterials.BATRACHITE, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.BATRACHITE, 3, -2.4f))));
+
+    public static final Item CARDINAL_AMETHYST_SWORD = registerItem("cardinal_amethyst_sword",
+            new SwordItem(ModToolMaterials.CARDINAL, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.CARDINAL, 3, -2.3f))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ArcaneImbued.MOD_ID, name), item);

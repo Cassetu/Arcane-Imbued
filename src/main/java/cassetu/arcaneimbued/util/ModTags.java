@@ -12,6 +12,9 @@ public class ModTags {
         public static TagKey<Block> NEEDS_BATRACHITE_TOOL = createTag("needs_batrachite_tool");
         public static TagKey<Block> INCORRECT_FOR_BATRACHITE_TOOL = createTag("incorrect_for_batrachite_tool");
 
+        public static TagKey<Block> NEEDS_CARDINAL_TOOL = createTag("needs_cardinal_tool");
+        public static TagKey<Block> INCORRECT_FOR_CARDINAL_TOOL = createTag("incorrect_for_cardinal_tool");
+
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(ArcaneImbued.MOD_ID, name));
         }

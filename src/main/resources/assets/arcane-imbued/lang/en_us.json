@@ -11,6 +11,7 @@
   "item.arcane-imbued.starlight_ashes": "Starlight Ashes",
 
   "item.arcane-imbued.obsidian_batrachite_sword": "Obsidian Batrachite Sword",
+  "item.arcane-imbued.cardinal_amethyst_sword": "Cardinal Amethyst Sword",
 
   "block.arcane-imbued.batrachite_ore": "Batrachite Ore",
   "block.arcane-imbued.batrachite_deepslate_ore": "Batrachite Deepslate Ore",
@@ -24,8 +25,11 @@
   "item.arcane-imbued.cardinal_spike": "Cardinal Spike",
   "item.arcane-imbued.celestial_bloom": "Celestial Bloom",
   "item.arcane-imbued.cerulean_drop": "Cerulean Drop",
+  "item.arcane-imbued.forest_prism": "Forest Prism",
 
   "item.arcane-imbued.obsidian_blade": "Obsidian Blade",
+  "item.arcane-imbued.amethyst_blade": "Amethyst Blade",
+  "item.arcane-imbued.forest_prism_blade": "Forest Prism Blade",
 
   "tooltip.arcane-imbued.magic_block.tooltip": "Drop specific items on this to transform them",
 

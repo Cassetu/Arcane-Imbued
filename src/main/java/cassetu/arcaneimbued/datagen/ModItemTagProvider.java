@@ -22,7 +22,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.RAW_BATRACHITE)
                 .add(ModItems.CELESTIAL_BLOOM)
                 .add(ModItems.CARDINAL_SPIKE)
-                .add(ModItems.CERULEAN_DROP);
+                .add(ModItems.CERULEAN_DROP)
+                .add(ModItems.FOREST_PRISM);
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.OBSIDIAN_BATRACHITE_SWORD);

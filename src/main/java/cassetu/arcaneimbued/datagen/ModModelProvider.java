@@ -32,6 +32,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CARDINAL_SPIKE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CELESTIAL_BLOOM, Models.GENERATED);
         itemModelGenerator.register(ModItems.CERULEAN_DROP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AMETHYST_BLADE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FOREST_PRISM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FOREST_PRISM_BLADE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.BATRACHITE_WAND, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ARCANE_WAND, Models.HANDHELD);
@@ -41,5 +44,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.STARLIGHT_ASHES, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.OBSIDIAN_BATRACHITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CARDINAL_AMETHYST_SWORD, Models.HANDHELD);
     }
 }

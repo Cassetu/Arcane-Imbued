@@ -11,7 +11,10 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
     BATRACHITE(ModTags.Blocks.INCORRECT_FOR_BATRACHITE_TOOL,
-            1200, 5.0F, 8.0F, 22, () -> Ingredient.ofItems(ModItems.BATRACHITE));
+            1200, 5.0F, 6.0F, 22, () -> Ingredient.ofItems(ModItems.BATRACHITE)),
+    CARDINAL(ModTags.Blocks.INCORRECT_FOR_CARDINAL_TOOL,
+            1000, 1.0F, 6.0F, 36, () -> Ingredient.ofItems(ModItems.CARDINAL_SPIKE));
+
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

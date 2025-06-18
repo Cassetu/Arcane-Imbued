@@ -25,16 +25,20 @@ public class ModItemGroups {
                         entries.add(ModItems.CARDINAL_WAND);
 
                         entries.add(ModItems.OBSIDIAN_BATRACHITE_SWORD);
+                        entries.add(ModItems.CARDINAL_AMETHYST_SWORD);
 
                         entries.add(ModItems.CAULIFLOWER);
 
                         entries.add(ModItems.STARLIGHT_ASHES);
 
+                        entries.add(ModItems.AMETHYST_BLADE);
+                        entries.add(ModItems.OBSIDIAN_BLADE);
+                        entries.add(ModItems.FOREST_PRISM_BLADE);
 
                         entries.add(ModItems.CELESTIAL_BLOOM);
                         entries.add(ModItems.CARDINAL_SPIKE);
-                        entries.add(ModItems.OBSIDIAN_BLADE);
                         entries.add(ModItems.CERULEAN_DROP);
+                        entries.add(ModItems.FOREST_PRISM);
 
                     }).build());
 

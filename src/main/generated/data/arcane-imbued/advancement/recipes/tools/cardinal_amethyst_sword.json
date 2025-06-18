@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_amethyst_blade": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arcane-imbued:amethyst_blade"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cardinal_spike": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arcane-imbued:cardinal_spike"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arcane-imbued:cardinal_amethyst_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cardinal_spike",
+      "has_amethyst_blade",
+      "has_stick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arcane-imbued:cardinal_amethyst_sword"
+    ]
+  }
+}
