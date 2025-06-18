@@ -13,6 +13,8 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
+import static net.minecraft.block.Blocks.createLeavesBlock;
+
 public class ModBlocks {
 
     public static final Block BATRACHITE_ORE = registerBlock("batrachite_ore",
@@ -33,6 +35,8 @@ public class ModBlocks {
                    .sounds(BlockSoundGroup.AMETHYST_CLUSTER)
                    .strength(1.5F)
                    .luminance(state -> 4)));
+
+    public static final Block AZALEA_PRISM_LEAVES = registerBlock("azalea_prism_leaves", createLeavesBlock(BlockSoundGroup.AZALEA_LEAVES));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

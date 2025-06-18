@@ -28,6 +28,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.MAGIC_BLOCK);
 
+        addDrop(ModBlocks.AZALEA_PRISM_LEAVES, oreDrops(ModBlocks.AZALEA_PRISM_LEAVES, ModItems.FOREST_PRISM));
         addDrop(ModBlocks.BATRACHITE_ORE, oreDrops(ModBlocks.BATRACHITE_ORE, ModItems.RAW_BATRACHITE));
         addDrop(ModBlocks.CARDINAL_SPIKE_CLUSTER, oreDrops(ModBlocks.CARDINAL_SPIKE_CLUSTER, ModItems.CARDINAL_SPIKE));
         addDrop(ModBlocks.BATRACHITE_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.BATRACHITE_DEEPSLATE_ORE, ModItems.RAW_BATRACHITE, 3, 7));

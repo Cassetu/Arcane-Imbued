@@ -85,6 +85,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.FOREST_PRISM), conditionsFromItem(ModItems.FOREST_PRISM))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.FOREST_PRISM_SWORD)
+                .pattern(" F ")
+                .pattern(" G ")
+                .pattern(" S ")
+                .input('F', ModItems.FOREST_PRISM_BLADE)
+                .input('G', Items.GOLD_BLOCK)
+                .input('S', Items.STICK)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(Items.GOLD_BLOCK), conditionsFromItem(Items.GOLD_BLOCK))
+                .criterion(hasItem(ModItems.FOREST_PRISM_BLADE), conditionsFromItem(ModItems.FOREST_PRISM_BLADE))
+                .offerTo(exporter);
+
 //        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_PINK_GARNET, 9)
 //                .input(ModBlocks.RAW_PINK_GARNET_BLOCK)
 //                .criterion(hasItem(ModBlocks.RAW_PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.RAW_PINK_GARNET_BLOCK))

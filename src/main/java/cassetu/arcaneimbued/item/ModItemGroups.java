@@ -23,9 +23,11 @@ public class ModItemGroups {
                         entries.add(ModItems.ARCANE_WAND);
                         entries.add(ModItems.BATRACHITE_WAND);
                         entries.add(ModItems.CARDINAL_WAND);
+                        entries.add(ModItems.PRISM_WAND);
 
                         entries.add(ModItems.OBSIDIAN_BATRACHITE_SWORD);
                         entries.add(ModItems.CARDINAL_AMETHYST_SWORD);
+                        entries.add(ModItems.FOREST_PRISM_SWORD);
 
                         entries.add(ModItems.CAULIFLOWER);
 
@@ -34,6 +36,7 @@ public class ModItemGroups {
                         entries.add(ModItems.AMETHYST_BLADE);
                         entries.add(ModItems.OBSIDIAN_BLADE);
                         entries.add(ModItems.FOREST_PRISM_BLADE);
+
 
                         entries.add(ModItems.CELESTIAL_BLOOM);
                         entries.add(ModItems.CARDINAL_SPIKE);
@@ -50,6 +53,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.BATRACHITE_ORE);
                         entries.add(ModBlocks.BATRACHITE_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.AZALEA_PRISM_LEAVES);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
                         entries.add(ModBlocks.CARDINAL_SPIKE_CLUSTER);

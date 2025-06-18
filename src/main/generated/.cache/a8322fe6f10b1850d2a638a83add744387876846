@@ -1,6 +1,6 @@
-// 1.21.1	2025-06-17T21:27:41.8059406	Arcane Imbued/Model Definitions
-777e0f7024b12ed4098587bd37c6b7702d5d4b43 assets\arcane-imbued\blockstates\cardinal_spike_cluster.json
+// 1.21.1	2025-06-18T10:30:26.263777	Arcane Imbued/Model Definitions
 85289d742362f3e2b36f8b14a0030b275a042f04 assets\arcane-imbued\models\item\raw_batrachite.json
+777e0f7024b12ed4098587bd37c6b7702d5d4b43 assets\arcane-imbued\blockstates\cardinal_spike_cluster.json
 abd3174193907bf8669364156e054e757fb53035 assets\arcane-imbued\blockstates\magic_block.json
 153a1a9fc2a0c29eb3bbca8568fc7b1bbaf5c2e1 assets\arcane-imbued\models\item\batrachite_deepslate_ore.json
 455c013cafb81d90fdf1f0e3d1a2af800a65059c assets\arcane-imbued\models\item\brick_wand.json
@@ -8,22 +8,27 @@ abd3174193907bf8669364156e054e757fb53035 assets\arcane-imbued\blockstates\magic_
 7b7681b780611e675c07d4ff416932f79d20c95d assets\arcane-imbued\models\item\starlight_ashes.json
 cd08ea4520f9b85d5a83e868f736734228204276 assets\arcane-imbued\models\item\batrachite_ore.json
 7b735a392982ff5cc0d42fab753793349e11825d assets\arcane-imbued\models\item\cerulean_drop.json
+5b3e4f5207bd47b0acf7ec8020822f12d58fee3c assets\arcane-imbued\models\item\azalea_prism_leaves.json
 c54cdd9f69f6dfcde5f647568288b7a91d1d8f67 assets\arcane-imbued\models\item\cauliflower.json
 f6d7264f84cba468942a18dd21c0af987dda8225 assets\arcane-imbued\models\item\cardinal_spike.json
 2733b4631eb646d4daac637009d40bc628673fae assets\arcane-imbued\models\block\magic_block.json
-c33f53d0b484d3a7db4e938c04293b8c5b265b81 assets\arcane-imbued\models\item\forest_prism.json
-ad35f118ac4e251f9f6108d15c82557d982dea3f assets\arcane-imbued\models\item\cardinal_amethyst_sword.json
 e16c0f3888476ff9736cef15981faec7284e4270 assets\arcane-imbued\models\item\cardinal_wand.json
+ad35f118ac4e251f9f6108d15c82557d982dea3f assets\arcane-imbued\models\item\cardinal_amethyst_sword.json
+c33f53d0b484d3a7db4e938c04293b8c5b265b81 assets\arcane-imbued\models\item\forest_prism.json
 aa412b12fac76fd50114cb233b528fdd35ae2f8b assets\arcane-imbued\models\item\obsidian_batrachite_sword.json
 d7070bb37de839f8daf30935dd816d7c8adeed80 assets\arcane-imbued\models\item\amethyst_blade.json
+088c98a0f0805ac2d34a1ab7587328278dd235fd assets\arcane-imbued\models\item\prism_wand.json
+3e7671277242df851279ed0a53898146f5cf9feb assets\arcane-imbued\blockstates\azalea_prism_leaves.json
 137d416aa2525f1c2fae2dbfd41fdb0d4ad6af94 assets\arcane-imbued\blockstates\batrachite_ore.json
 fdeaf3c6fc3c2e99a11766f42d49d673beae66a3 assets\arcane-imbued\models\item\magic_block.json
-37b4eb611abf6396bffc2a3e0f424240ad97bb48 assets\arcane-imbued\models\block\batrachite_deepslate_ore.json
-33e72681d49a789493f68936e7bcfa26d95daa73 assets\arcane-imbued\models\item\batrachite.json
+4825816702ea495fff96970e8c9ac745c8185cdd assets\arcane-imbued\models\item\forest_prism_sword.json
 d3194e5bf055239149c3237e399751d1c3f0754d assets\arcane-imbued\models\item\forest_prism_blade.json
+33e72681d49a789493f68936e7bcfa26d95daa73 assets\arcane-imbued\models\item\batrachite.json
+37b4eb611abf6396bffc2a3e0f424240ad97bb48 assets\arcane-imbued\models\block\batrachite_deepslate_ore.json
 e8870d24dd42e0c5c89e01683273d8a3a171f0bc assets\arcane-imbued\models\item\batrachite_wand.json
 04e5dd0ea75ca9ca526149ec4dbba22f2aa661f8 assets\arcane-imbued\models\item\arcane_wand.json
 c325723ceecaffc5b0c61540b4695190d963dac3 assets\arcane-imbued\models\block\batrachite_ore.json
+b572e8df464c575158d1f6452ce7cad2a8adf80f assets\arcane-imbued\models\block\azalea_prism_leaves.json
 a6ffb6a96f90895e1335528789fdc7cea6a16d90 assets\arcane-imbued\models\item\obsidian_blade.json
-095d38f6b8828835f6dccdb3a468bf1cb9a38b8f assets\arcane-imbued\models\block\cardinal_spike_cluster.json
 abb98ff754ae996cb5439330a9a20e150fa983dc assets\arcane-imbued\models\item\celestial_bloom.json
+095d38f6b8828835f6dccdb3a468bf1cb9a38b8f assets\arcane-imbued\models\block\cardinal_spike_cluster.json

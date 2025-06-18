@@ -12,6 +12,8 @@ import java.util.function.Supplier;
 public enum ModToolMaterials implements ToolMaterial {
     BATRACHITE(ModTags.Blocks.INCORRECT_FOR_BATRACHITE_TOOL,
             1200, 5.0F, 6.0F, 22, () -> Ingredient.ofItems(ModItems.BATRACHITE)),
+    FOREST_PRISM(ModTags.Blocks.INCORRECT_FOR_FOREST_PRISM_TOOL,
+            1000, 5.0F, 7.5F, 2, () -> Ingredient.ofItems(ModItems.FOREST_PRISM)),
     CARDINAL(ModTags.Blocks.INCORRECT_FOR_CARDINAL_TOOL,
             1000, 1.0F, 6.0F, 36, () -> Ingredient.ofItems(ModItems.CARDINAL_SPIKE));
 

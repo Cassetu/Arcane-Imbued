@@ -19,6 +19,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BATRACHITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGIC_BLOCK);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AZALEA_PRISM_LEAVES);
+
         blockStateModelGenerator.registerAmethyst(ModBlocks.CARDINAL_SPIKE_CLUSTER);
     }
 
@@ -36,10 +38,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FOREST_PRISM, Models.GENERATED);
         itemModelGenerator.register(ModItems.FOREST_PRISM_BLADE, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.FOREST_PRISM_SWORD, Models.HANDHELD);
+
         itemModelGenerator.register(ModItems.BATRACHITE_WAND, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ARCANE_WAND, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BRICK_WAND, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CARDINAL_WAND, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PRISM_WAND, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.STARLIGHT_ASHES, Models.GENERATED);
 

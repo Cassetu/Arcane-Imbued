@@ -15,6 +15,9 @@ public class ModTags {
         public static TagKey<Block> NEEDS_CARDINAL_TOOL = createTag("needs_cardinal_tool");
         public static TagKey<Block> INCORRECT_FOR_CARDINAL_TOOL = createTag("incorrect_for_cardinal_tool");
 
+        public static TagKey<Block> NEEDS_FOREST_PRISM_TOOL = createTag("needs_forest_prism_tool");
+        public static TagKey<Block> INCORRECT_FOR_FOREST_PRISM_TOOL = createTag("incorrect_for_forest_prism_tool");
+
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(ArcaneImbued.MOD_ID, name));
         }

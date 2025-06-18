@@ -6,18 +6,21 @@
   "item.arcane-imbued.brick_wand": "Brick Wand",
   "item.arcane-imbued.arcane_wand": "Arcane Wand",
   "item.arcane-imbued.cardinal_wand": "Cardinal Wand",
+  "item.arcane-imbued.prism_wand": "Prism Wand",
 
   "item.arcane-imbued.cauliflower": "Cauliflower",
   "item.arcane-imbued.starlight_ashes": "Starlight Ashes",
 
   "item.arcane-imbued.obsidian_batrachite_sword": "Obsidian Batrachite Sword",
   "item.arcane-imbued.cardinal_amethyst_sword": "Cardinal Amethyst Sword",
+  "item.arcane-imbued.forest_prism_sword": "Forest Prism Sword",
 
   "block.arcane-imbued.batrachite_ore": "Batrachite Ore",
   "block.arcane-imbued.batrachite_deepslate_ore": "Batrachite Deepslate Ore",
   "block.arcane-imbued.cardinal_spike_cluster": "Cardinal Spike Cluster",
 
   "block.arcane-imbued.magic_block": "Magic Block",
+  "block.arcane-imbued.azalea_prism_leaves": "Azalea Prism Leaves",
 
   "itemgroup.arcane-imbued.arcane_imbued_items": "Arcane Imbued Items",
   "itemgroup.arcane-imbued.arcane_imbued_blocks": "Arcane Imbued Blocks",
@@ -32,6 +35,8 @@
   "item.arcane-imbued.forest_prism_blade": "Forest Prism Blade",
 
   "tooltip.arcane-imbued.magic_block.tooltip": "Drop specific items on this to transform them",
+
+  "tooltip.arcane-imbued.prism_wand.tooltip": "Azalea Leaves -> Azalea Prism Leaves",
 
   "tooltip.arcane-imbued.arcane_wand.tooltip": "Gold Blocks -> Netherite Blocks",
 
